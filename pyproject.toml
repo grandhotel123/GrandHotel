@@ -1,0 +1,20 @@
+[project]
+name = "grand_hotel_mgmt"
+authors = [
+    { name = "Whether you're handling reservations, guest check-ins, housekeeping, or billing, this app provides an all-in-one platform to ensure smooth and efficient management. Designed for hotels, resorts, and vacation rentals, it’s your go-to tool for delivering exceptional guest experiences.", email = "grandhotelbadpyrmonterpnext@gmail.com"}
+]
+description = "Simplify and streamline your hotel operations with Grand Hotel Management, the ultimate solution for managing every aspect of your hospitality business."
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+# These dependencies are only installed when developer mode is enabled
+[tool.bench.dev-dependencies]
+# package_name = "~=1.1.0"
