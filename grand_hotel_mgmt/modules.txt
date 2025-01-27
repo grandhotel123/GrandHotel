@@ -1,1 +1,3 @@
 Grand Hotel
+Custom Hotel
+Custom Restaurant
