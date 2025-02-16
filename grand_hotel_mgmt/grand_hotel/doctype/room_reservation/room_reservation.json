@@ -16,6 +16,7 @@
   "late_checkin",
   "column_break_6",
   "status",
+  "room",
   "section_break_8",
   "items",
   "net_total",
@@ -74,7 +75,7 @@
    "fieldname": "items",
    "fieldtype": "Table",
    "label": "Items",
-   "options": "Hotel Room Reservation Item",
+   "options": "Room Reservation Entries",
    "reqd": 1
   },
   {
@@ -101,11 +102,17 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "Room ",
+   "options": "Hotel Room"
   }
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-30 19:53:06.261374",
+ "modified": "2025-01-30 20:33:26.560222",
  "modified_by": "Administrator",
  "module": "Grand Hotel",
  "name": "Room Reservation",

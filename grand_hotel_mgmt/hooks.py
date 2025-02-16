@@ -144,6 +144,11 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events ={
+    "Sales Invoice":{
+        "on_submit":"grand_hotel_mgmt.doc_events.sales_invoice.on_submit"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
