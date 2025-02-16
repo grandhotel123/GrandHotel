@@ -22,7 +22,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Reference Doctype",
-   "options": "Restaurant\nSpa Management\nGym Management\nHotel Room Reservation"
+   "options": "Restaurant\nSpa Management\nGym Management\nRoom Reservation"
   },
   {
    "fieldname": "reference_id",
@@ -48,7 +48,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-28 23:49:49.656393",
+ "modified": "2025-02-15 21:12:40.032235",
  "modified_by": "Administrator",
  "module": "Grand Hotel",
  "name": "Consolidate Invoices",
